@@ -1,5 +1,16 @@
 [![Build Status](https://travis-ci.org/tommybananas/finale.svg?branch=master)](https://travis-ci.org/tommybananas/finale) [![Dependency Status](https://david-dm.org/tommybananas/finale.svg)](https://david-dm.org/tommybananas/finale)
 
+# What's this
+
+This is patched finale-rest library with one change - it searches strings and text attribuets with ilike instead of exact match
+
+Like if someone has email
+
+`Mel_Colm-Cille_Gerard_Gibson@gmail.com`
+
+You can find this record by searching with `?email=gibson` parameter 
+
+
 # Finale
 
 Create flexible REST endpoints and controllers from [Sequelize](http://www.sequelizejs.com/) models in your [Express](http://expressjs.com/) or [Restify](https://github.com/restify/node-restify) app.
