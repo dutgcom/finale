@@ -8,7 +8,7 @@ Like if someone has email
 
 `Mel_Colm-Cille_Gerard_Gibson@gmail.com`
 
-You can find this record by searching with `?email=gibson` parameter 
+You can find this record by searching with `?email=gibson` parameter, by default finale required full string `Mel_Colm-Cille_Gerard_Gibson@gmail.com` which is insanity for such fields as email and we don't always need to search by all fields and have too many models to write conditions for each one of them 
 
 
 # Finale
